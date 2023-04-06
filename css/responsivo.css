@@ -1,0 +1,349 @@
+@media screen and (max-width:1280px){
+    .botao{
+        padding-left: 80px;
+    }
+}
+@media screen and (max-width:1228px){
+    .introdução{
+        height: 500px;
+    }
+    .botao{
+        padding-left: 100px;
+    }
+    .intro-txt{
+
+        flex: 50%;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 160px 380px, 260px 50px;
+
+    }
+    .pg-intro{
+        padding-right: 20px;
+    }
+    .cards-caixa{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 80px;
+        padding: 100px;
+        
+    }
+    .blocos-cards{
+        width: 280px;
+        height: 325px;
+        padding: 25px;
+        border: 2px solid black;
+        box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.895);
+        position: relative;
+    
+    }
+    .blocos-cards:nth-child(1){
+        bottom: 0px;
+    }
+    
+    .blocos-cards:nth-child(2){
+        bottom: 0px;
+    }
+    
+    .blocos-cards:nth-child(3){
+        bottom: 0px;
+    }
+    
+    .blocos-cards:nth-child(4){
+        bottom: 0px ;
+    }
+    .cards{
+        height: 1100px;
+    }
+    footer{
+        height: 200px;
+    }
+}
+@media screen and (max-width:1100px){
+    .email{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width:1045px){
+    .botao{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 1005px){
+    .intro-img img{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-widtH:972px){
+    .introdução{
+        height: 550px;
+    }
+   
+}
+@media screen and (max-width:950px){
+    .intro-img img{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width:898px){
+    .cards-caixa{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 30px;
+        padding: 0;
+        
+    }
+    .cards-caixa{
+        padding-top: 150px;
+    }
+}
+@media screen and (max-width:849px){
+
+    .intro-txt{
+
+        flex: 50%;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 160px 410px, 260px 50px;
+
+    }
+
+}
+@media screen and (max-width:834px){
+    
+    footer{
+        height: 250px;
+    }
+}
+@media screen and (max-width:800px){
+    .botao{
+        padding-left: 25px;
+    }
+}
+@media screen and (max-width:760px){
+    .botao{
+        padding-left: 10px;
+    }
+    .intro-img img{
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width:712px){
+
+    .intro-txt{
+
+        flex: 50%;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 160px 430px, 260px 50px;
+
+    }
+
+}
+@media screen and (max-width:700px){
+    .introdução{
+        display: block;
+        height: 880px;
+    }
+    .intro-txt{
+
+        flex: 50%;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 345px, 260px 50px;
+        height: 400px;
+
+    }
+    .intro-img img{
+        margin-top: 0px;
+    }
+    .intro-img{
+        margin-top: 0px;
+    }
+    header{
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .botao{
+        padding-left: 55px;
+    }
+    .botao input{
+        width: 100px;
+        font-size: 14px;
+        
+    }
+    footer{
+        display: block;
+        height: 500px;
+    }
+    .links-footer{
+        text-align: initial;
+        margin-top: 20px;
+    }
+    .email{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:680px){
+    .intro-txt{
+        flex: 50%;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 360px, 260px 50px;
+        height: 450px;
+    }
+    .introdução{
+        height: 880px;
+    }
+}
+@media screen and (max-width:650px){
+    .botao{
+        padding-left: 35px;
+    }
+}
+@media screen and (max-width:649px){
+    .cards{
+        height: 1700px;
+    }
+}
+@media screen and (max-width:630px){
+    .botao{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width:600px){
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .botao{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
+    .menu ul{
+        height: 80px;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        text-align: center;
+        grid-gap: 10px;
+    }
+    header{
+        display: block;
+    }
+}
+@media screen and (max-width:512px){
+
+    .intro-txt{
+        flex: 50%;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 390px, 260px 50px;
+        height: 450px;
+    }
+
+}
+@media screen and (max-width:500px){
+    .introdução{
+        height: 780px;
+    }
+    .t-titulo{
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width:461px){
+    .blocos-cards{
+        width: 280px;
+        height: 325px;
+        padding: 25px;
+        border: 2px solid black;
+        box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.895);
+        position: relative;
+    
+    }
+}
+
+@media screen and (max-width:420px){
+    .intro-txt{
+        height: 500px;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 410px, 260px 50px;
+    }
+}
+@media screen and (max-width:390px){
+    .t-intro{
+        font-size: 2.4rem;
+    }
+    .intro-txt{
+        height: 500px;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 425px, 200px 35px;
+    }
+    .cards-caixa{
+        padding-top: 100px;
+    }
+    footer{
+        height: 550px;
+    }
+}
+@media screen and (max-width:384px){
+
+    .intro-txt{
+        height: 500px;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 425px, 200px 35px;
+    }
+    
+}
+@media screen and (max-width:374px){
+    .intro-txt{
+        height: 500px;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 440px, 200px 35px;
+    }
+}
+@media screen and (max-width:345px){
+    .introdução{
+        padding: 5px;
+    }
+    .intro-txt{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:321px){
+    .intro-txt{
+        height: 570px;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 430px, 200px 35px;
+    }
+    .introdução{
+        height: 850px;
+    }
+
+}
+@media screen and (max-width:300px){
+    .intro-txt{
+        height: 570px;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 470px, 190px 35px;
+    }
+}
+@media screen and (max-width:290px){
+    .intro-txt{
+        height: 570px;
+        background-image: url(/imagens/arrow-curve.svg), url(/imagens/three-dashes.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 100px 500px, 189px 30px;
+    }
+}
